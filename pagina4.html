@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estadísticas generales</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f6fa;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #222;
+        }
+
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 750px;
+            margin: 30px auto;
+        }
+
+        .tarjeta {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 25px;
+        }
+
+        .tarjeta h2 {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .tarjeta p {
+            font-size: 35px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .escuela {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 25px;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        .escuela h2 {
+            font-size: 18px;
+        }
+
+        .escuela p {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Estadísticas generales</h1>
+
+    <p>
+        Información sobre los incidentes registrados
+        en escuelas de Estados Unidos.
+    </p>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+            <h2>Total de incidentes</h2>
+            <p>818</p>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Total de fallecidos</h2>
+            <p>750</p>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Total de heridos</h2>
+            <p>999</p>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Año con más incidentes</h2>
+            <p>2025</p>
+            <small>61 incidentes</small>
+        </div>
+
+    </div>
+
+    <div class="escuela">
+        <h2>Tipo de escuela con más incidentes</h2>
+        <p>High School</p>
+        <small>419 incidentes registrados</small>
+    </div>
+
+</body>
+</html>
